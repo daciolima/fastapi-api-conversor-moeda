@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "service-api-externa"
+version = "0.1.0"
+description = ""
+authors = ["dacio_lima"]
+readme = "README.md"
+packages = [{include = "service_api_externa"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^1.10.7"
+uvicorn = "^0.22.0"
+requests = "^2.30.0"
+fastapi = "^0.95.2"
+aiohttp = "^3.8.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
